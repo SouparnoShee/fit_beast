@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Smooch Sans', sans-serif; */
+    /* font-family: 'Josefin Slab', serif; */
+}
+
+
+.exercise-fetch::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+/* Hamburger Styles */
+
+.ham-button {
+    display: none;
+    font-size: 60px;
+    color: white;
+
+}
+
+.ham-open-menu {
+    display: none !important;
+}
+
+
+
+@media (max-width: 872px) {
+
+    .ham-button {
+        display: block;
+
+    }
+
+    .ham-hide-menu {
+        display: none !important;
+    }
+
+    .ham-open-menu {
+        display: flex !important;
+    }
+}

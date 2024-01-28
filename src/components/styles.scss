@@ -1,0 +1,42 @@
+.hamClick {
+    margin: 60px;
+    display: none;
+
+    @media (max-width: 550px) {
+        display: block;
+    }
+
+    .line {
+        height: 4px;
+        width: 50px;
+        background-color: #fff;
+        margin: 6px 0px;
+    }
+}
+
+.hideHam {
+    display: block;
+
+    @media (max-width: 550px) {
+        display: none;
+    }
+}
+
+.hamClose {
+    margin: 60px;
+
+    .line {
+        height: 4px;
+        width: 30px;
+        background-color: #fff;
+        margin: 0px 0px;
+
+        &:nth-child(1) {
+            transform: rotate(45deg);
+        }
+
+        &:nth-child(2) {
+            transform: rotate(-40deg);
+        }
+    }
+}
